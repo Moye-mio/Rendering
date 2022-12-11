@@ -13,46 +13,48 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader_Common.hlsli" />
-  </ItemGroup>
-  <ItemGroup>
     <FxCompile Include="shader_test.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_CreateLists_HQ.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_CreateLists_LowRes.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_CreateLists_LowRes_FOM.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_FadeToAlphaPerVertex.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_MinGather_FOM.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_MinGather_LowRes.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_RenderFragments.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_SmoothAlpha.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_SortFragments.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
     <FxCompile Include="shader_SortFragments_LowRes.hlsl">
-      <Filter>hlsl</Filter>
+      <Filter>Shader</Filter>
     </FxCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="hlsl">
+    <Filter Include="Shader">
       <UniqueIdentifier>{b181295e-7e83-44a8-90ac-fc1a65b30f19}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader_Common.hlsli">
+      <Filter>Shader</Filter>
+    </None>
   </ItemGroup>
 </Project>
