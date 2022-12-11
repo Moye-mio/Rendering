@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="camera.hpp" />
+    <ClInclude Include="cbuffer.hpp" />
+    <ClInclude Include="d3d.hpp" />
+    <ClInclude Include="lines.hpp" />
+    <ClInclude Include="math.hpp" />
+    <ClInclude Include="myRenderer.hpp" />
+    <ClInclude Include="renderer.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader_Common.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader_test.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_CreateLists_HQ.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_CreateLists_LowRes.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_CreateLists_LowRes_FOM.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_FadeToAlphaPerVertex.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_MinGather_FOM.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_MinGather_LowRes.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_RenderFragments.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_SmoothAlpha.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_SortFragments.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shader_SortFragments_LowRes.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hlsl">
+      <UniqueIdentifier>{b181295e-7e83-44a8-90ac-fc1a65b30f19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
